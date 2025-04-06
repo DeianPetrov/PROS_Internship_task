@@ -1,0 +1,35 @@
+
+
+###EXAMPLE-1 INPUT
+POST http://localhost:8080/paths
+Content-Type: application/json
+
+{
+  "origin": "SOF",
+  "destination": "MLE"
+}
+###EXAMPLE-2-4 INPUT
+POST http://localhost:8080/paths
+Content-Type: application/json
+
+{
+  "origin": "SOF",
+  "destination": "MLE"
+}
+###EXAMPLE-3 INPUT
+POST http://localhost:8080/paths
+Content-Type: application/json
+
+{
+ "origin": "SOF",
+  "destination": "MLE"
+}
+###EXAMPLE-5 INPUT
+POST http://localhost:8080/paths
+Content-Type: application/json
+
+{
+  "origin": "SOF",
+  "destination": "MLE",
+  "maxFlights": 1
+}
